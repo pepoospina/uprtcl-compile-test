@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node ./build/index.js",
+    "start-esm": "node -r esm ./build/index.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@uprtcl/evees": "^0.2.0"
+    "@uprtcl/evees": "^0.2.0",
+    "esm": "^3.2.25"
   },
   "devDependencies": {
     "typescript": "^4.2.4"
