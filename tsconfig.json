@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "module": "system",
+    "module": "CommonJS",
     "noImplicitAny": true,
     "moduleResolution": "node",
     "removeComments": true,
     "preserveConstEnums": true,
-    "outFile": "./built/output.js",
+    "outDir": "./built",
     "sourceMap": true
   },
   "include": ["src/**/*"],

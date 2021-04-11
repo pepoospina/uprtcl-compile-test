@@ -7,9 +7,9 @@
     "build": "tsc"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "@uprtcl/evees": "^0.1.4"
+    "@uprtcl/evees": "^0.2.0"
   },
   "devDependencies": {
     "typescript": "^4.2.4"
