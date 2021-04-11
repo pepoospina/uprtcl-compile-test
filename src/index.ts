@@ -1,5 +1,5 @@
 import { CondensateCommits } from '@uprtcl/evees';
-import { StoreStub } from './stubs/store.js';
+import { StoreStub } from './stubs/store';
 
 console.log('Hello world');
 
